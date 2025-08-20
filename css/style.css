@@ -1,0 +1,33 @@
+body{
+    background: black;
+    transition: background 0.5s ease;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.central button{
+    width: 100px;
+    background: #FFFF00;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.central button:hover{
+    background: #F0E68C;
+}
